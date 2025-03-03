@@ -1,7 +1,7 @@
 groups:
 - name: test rule
   rules:
-  - alert: CephPGsUnclean
+  - alert: CephPGsUnclean_test
     annotations:
       description: '{{ $value }} PGs have been unclean for more than 15 minutes in
         pool {{ $labels.name }}. Unclean PGs have not recovered from a previous failure.'
