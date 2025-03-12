@@ -12,11 +12,11 @@ groups:
       > 0
     for: 15m
     labels:
-      juju_application: ceph-mon
-      juju_charm: ceph-mon
-      juju_model: ceph-build-plus
-      juju_model_uuid: fc740ccb-631c-412e-873d-080223ad8816
-      oid: 1.3.6.1.4.1.50495.1.2.1.7.2
+      juju_application: ceph-mon-test
+      juju_charm: ceph-mon-test
+      juju_model: ceph-build-plus-test
+      juju_model_uuid: fc740ccb-631c-412e-873d-080223ad8816-test
+      oid: 1.3.6.1.4.1.50495.1.2.1.7.2-test
       test_label: 02282025
       severity: warning
       type: ceph_default
