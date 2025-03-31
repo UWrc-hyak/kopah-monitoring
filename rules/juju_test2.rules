@@ -16,5 +16,5 @@ groups:
       juju_application: grafana-agent
       juju_charm: grafana-agent
       juju_model: ceph-build-plus
-      juju_model_uuid: fc740ccb-631c-412e-873d-080223ad8816
+      juju_model_uuid: 14d9f6de-0b5d-11f0-b409-4b54ac201cb1
       severity: info
