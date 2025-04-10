@@ -1,0 +1,9 @@
+alert: myalert4
+(node_bonding_active{juju_application="grafana-agent",juju_model="ceph-build-plus",juju_model_uuid="8760a199-e648-4ac7-8507-4134b9b9e7b4"} - node_bonding_slaves{juju_application="grafana-agent",juju_model="ceph-build-plus",juju_model_uuid="8760a199-e648-4ac7-8507-4134b9b9e7b4"}) != 0
+for: 0m
+labels:
+  severity: info
+  origin: github
+  gitbranch: main
+annotations:
+  summary: This is my alert
