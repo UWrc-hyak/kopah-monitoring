@@ -7,7 +7,7 @@ labels:
   juju_model: ceph-build-plus
   juju_model_uuid: 8760a199-e648-4ac7-8507-4134b9b9e7b4
   severity: warning
-  focus: "4"
+  # focus: "4"
 annotations:
   summary: Test alert using same labels/group
   description: Interface '{{ $labels.device }}' speed changed to {{ $value }}B/s on host {{ $labels.instance }}.
