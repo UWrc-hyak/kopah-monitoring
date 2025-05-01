@@ -5,5 +5,8 @@ labels:
   severity: info
   origin: github
   gitbranch: main
+  focus: "4"
+ 
 annotations:
-  summary: This is my alert
+  summary: This is my test alert
+  description: Interface '{{ $labels.device }}' speed changed to {{ $value }}B/s on host {{ $labels.instance }}.
