@@ -5,10 +5,10 @@ labels:
   severity: info
   origin: github
   gitbranch: main
-  #focus: "4"
+  focus: "4"
   
  
 annotations:
-  summary: This is my test alert
+  summary: This is Kopah service alert
   description: Interface speed changed to {{ $value }}B/s on host {{ $labels.instance }}.
   
