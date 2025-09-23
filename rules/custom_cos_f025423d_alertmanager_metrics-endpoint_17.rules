@@ -84,7 +84,7 @@ groups:
       juju_charm: alertmanager-k8s
       juju_model: cos
       juju_model_uuid: f025423d-b1b1-4ec5-8808-a1204cfe044d
-      severity: critical
+      severity: warning
       origin: custom_repo
       focus: '4'
   - alert: HostMetricsMissing_Custom
@@ -101,6 +101,6 @@ groups:
       juju_charm: alertmanager-k8s
       juju_model: cos
       juju_model_uuid: f025423d-b1b1-4ec5-8808-a1204cfe044d
-      severity: critical
+      severity: warning
       origin: custom_repo
       focus: '4'
