@@ -1,7 +1,7 @@
 groups:
-- name: zinc_missing_alerts
+- name: zinc_test
   rules:
-  - alert: PepeTargetMissingRemote
+  - alert: test_PepeTargetMissingRemote
     annotations:
       description: "A Prometheus target has disappeared. An exporter might be crashed.\n\
         \  VALUE = {{ $value }}\n  LABELS = {{ $labels }}"
