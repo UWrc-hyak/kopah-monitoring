@@ -1,0 +1,14 @@
+groups:
+- name: zinc_missing_alerts
+  rules:
+  - alert: PepeTargetMissingRemote
+    annotations:
+      description: "A Prometheus target has disappeared. An exporter might be crashed.\n\
+        \  VALUE = {{ $value }}\n  LABELS = {{ $labels }}"
+      summary: Prometheus target missing (instance {{ $labels.instance }})
+    expr: up{juju_application="PepeApp"} == 0
+    for: 0m
+    labels:
+      gitbranch: main
+      origin: github
+      severity: critical
