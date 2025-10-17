@@ -1,0 +1,12 @@
+groups:
+  - name: custom-test6
+    rules:
+      - alert: myalert
+        expr: up{juju_application="myalert"} == 0
+        for: 0m
+        labels:
+          severity: info
+          origin: github
+          gitbranch: main
+        annotations:
+          Kopah summary: "This is my alert 101725_03"
