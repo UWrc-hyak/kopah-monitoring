@@ -6,4 +6,4 @@ labels:
   origin: github
   gitbranch: main
 annotations:
-  summary: This is my alert 101725
+  summary: "This is my alert 101725"
