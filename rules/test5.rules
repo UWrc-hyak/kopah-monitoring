@@ -5,7 +5,7 @@ groups:
         expr: vector(1)
         for: 0m
         labels:
-	  focus: "4"
+          focus: "4"
           juju_application: grafana-agent
           juju_charm: grafana-agent
           juju_model: ceph-build-plus
