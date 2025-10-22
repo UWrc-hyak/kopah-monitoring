@@ -10,7 +10,7 @@ groups:
           juju_model: ceph-build-plus
           juju_model_uuid: f025423d-b1b1-4ec5-8808-a1204cfe044d
           severity: warning
-	  focus: "4"
+	  focus: 4
         annotations:
           summary: Kopah Test alert for old API
           description: This is test alert for Kopah alerting using old API
