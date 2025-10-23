@@ -6,7 +6,7 @@ groups:
         for: 0m
         labels:
           focus: "4"
-          ci_name: Kopah
+          ci_name: "Kopah"
           juju_application: grafana-agent
           juju_charm: grafana-agent
           juju_model: ceph-build-plus
