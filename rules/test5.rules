@@ -1,17 +1,18 @@
 groups:
   - name: kopah_test_group
     rules:
-      - alert: KopahMyAlert5 for old API
+      - alert: KopahMyAlert5 for NEW API
         expr: vector(1)
         for: 0m
         labels:
           focus: "4"
+          ci_name: "Kopah"
           juju_application: grafana-agent
           juju_charm: grafana-agent
           juju_model: ceph-build-plus
           juju_model_uuid: f025423d-b1b1-4ec5-8808-a1204cfe044d
           severity: warning
         annotations:
-          summary: Kopah Test alert for old API
-          description: This is test alert for Kopah alerting using old API
+          summary: Kopah Test alert for NEW API
+          description: This is test alert for Kopah alerting using NEW API
 
